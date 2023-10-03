@@ -9,7 +9,7 @@ type Provider = {
   type: string;
   signinUrl: string;
   callbackUrl: string;
-  stringsigninUrlParams: Record<string, string> | null;
+  signinUrlParams?: Record<string, string> | undefined;
 };
 
 type Providers = Record<string, Provider>;
@@ -23,6 +23,7 @@ const AuthProviders = () => {
 
       setProviders(res);
     };
+
     fetchProviders();
   }, []);
 
