@@ -27,7 +27,7 @@ const Footer = () => {
             src='/logo-purple.svg'
             width={115}
             height={38}
-            alt='Flexxible'
+            alt='Flexibble'
           />
           <p className='text-start text-sm font-normal mt-5 max-w-xs'>
             Flexxible is the world's leading community for creatives to share,

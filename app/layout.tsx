@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import './global.css';
 
 export const metadata = {
-  title: 'Flexxible',
+  title: 'Flexibble',
   description: 'Showcase and discover developer projects',
 };
 
